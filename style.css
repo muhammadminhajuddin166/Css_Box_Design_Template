@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(340, 8%, 69%);
+  padding: 20px;
+}
+
+.container {
+  background-color: hsla(0, 25%, 94%, 0.95);
+  padding: 25px;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-indent: 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: hsl(0, 100%, 30%);
+  text-decoration: underline;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  margin: 10px 0;
+  font-style: italic ;
+}
+
+.label {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.highlight {
+  font-weight: bold;
+  color: hsl(240, 100%, 30%);
+}
+  
+#p2{
+    font-weight: bold;
+    text-decoration: underline;
+}

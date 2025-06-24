@@ -1,50 +1,69 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
-  background-color: hsl(340, 8%, 69%);
-  padding: 20px;
+  background-color: #f9f9f9;
 }
 
-.container {
-  background-color: hsla(0, 25%, 94%, 0.95);
-  padding: 25px;
-  max-width: 600px;
-  margin: auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  text-indent: 20px;
-  text-align: left;
+.services {
+  display: flex; /* Uses 'display' */
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  visibility: visible; /* Uses 'visibility' */
+  overflow: visible; /* Uses 'overflow' */
 }
 
-h1 {
-  font-size: 20px;
-  font-weight: bold;
+.box {
+  width: 250px;              /* Uses width */
+  min-width: 200px;          /* Uses min-width */
+  max-width: 300px;          /* Uses max-width */
+  height: auto;              /* height auto for dynamic content */
+  min-height: 200px;         /* Uses min-height */
+  max-height: 500px;         /* Uses max-height */
+
+  background-color: #fff;
+  padding: 20px;             /* Uses padding */
+  margin: 10px;              /* Uses margin */
   text-align: center;
-  color: hsl(0, 100%, 30%);
-  text-decoration: underline;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  border-width: 3px;         /* Uses border-width */
+  border-style: solid;       /* Uses border-style */
+  border-color: transparent; /* Will be changed in color classes */
+  border-radius: 20px;       /* Uses border-radius */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Uses box-shadow */
+  overflow: hidden;          /* Uses overflow */
+  display: block;            /* display */
+  visibility: visible;       /* visibility */
 }
 
-p {
-  font-size: 16px;
-  font-weight: normal;
-  letter-spacing: 0.5px;
-  word-spacing: 2px;
-  margin: 10px 0;
-  font-style: italic ;
+.icon {
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
-.label {
-  font-weight: bold;
-  text-decoration: underline;
+.box h3 {
+  margin-bottom: 10px;
 }
 
-.highlight {
-  font-weight: bold;
-  color: hsl(240, 100%, 30%);
+.box p {
+  font-size: 14px;
+  color: #555;
 }
-  
-#p2{
-    font-weight: bold;
-    text-decoration: underline;
+
+/* Color themes using 'border' shorthand */
+.orange {
+  border: 3px solid #f27037; /* Uses border shorthand */
+}
+
+.pink {
+  border: 3px solid #e84c88;
+}
+
+.purple {
+  border: 3px solid #6c5ce7;
+}
+
+.blue {
+  border: 3px solid #3498db;
 }
